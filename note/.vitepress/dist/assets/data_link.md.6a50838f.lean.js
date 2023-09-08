@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,X as o}from"./chunks/framework.6e839c56.js";const u=JSON.parse('{"title":"联系方式","description":"","frontmatter":{},"headers":[],"relativePath":"data/link.md","filePath":"data/link.md"}'),n={name:"data/link.md"},r=o("",3),_=[r];function c(i,l,s,d,h,m){return e(),t("div",null,_)}const f=a(n,[["render",c]]);export{u as __pageData,f as default};

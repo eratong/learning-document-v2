@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as e}from"./chunks/framework.6e839c56.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"data/后端/python.md","filePath":"data/后端/python.md"}'),o={name:"data/后端/python.md"};function n(r,s,c,p,d,_){return a(),e("div")}const f=t(o,[["render",n]]);export{m as __pageData,f as default};

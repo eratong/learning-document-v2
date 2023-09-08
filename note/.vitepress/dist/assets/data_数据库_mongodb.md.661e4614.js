@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as e}from"./chunks/framework.6e839c56.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"data/数据库/mongodb.md","filePath":"data/数据库/mongodb.md"}'),o={name:"data/数据库/mongodb.md"};function n(r,d,s,c,m,p){return a(),e("div")}const f=t(o,[["render",n]]);export{i as __pageData,f as default};
