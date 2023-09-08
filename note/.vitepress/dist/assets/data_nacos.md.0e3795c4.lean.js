@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as e}from"./chunks/framework.6e839c56.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"data/nacos.md","filePath":"data/nacos.md"}'),o={name:"data/nacos.md"};function s(c,n,r,d,p,_){return t(),e("div")}const f=a(o,[["render",s]]);export{m as __pageData,f as default};

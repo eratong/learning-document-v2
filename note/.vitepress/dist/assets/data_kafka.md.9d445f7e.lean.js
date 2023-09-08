@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as e}from"./chunks/framework.6e839c56.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"data/kafka.md","filePath":"data/kafka.md"}'),r={name:"data/kafka.md"};function o(s,c,n,d,f,p){return t(),e("div")}const k=a(r,[["render",o]]);export{i as __pageData,k as default};

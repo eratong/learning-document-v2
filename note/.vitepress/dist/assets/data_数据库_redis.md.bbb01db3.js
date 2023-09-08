@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./chunks/framework.6e839c56.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"data/数据库/redis.md","filePath":"data/数据库/redis.md"}'),r={name:"data/数据库/redis.md"};function s(d,o,c,n,i,p){return t(),a("div")}const f=e(r,[["render",s]]);export{m as __pageData,f as default};

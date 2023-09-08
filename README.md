@@ -11,10 +11,3 @@ pnpm i
 ``` javascript
 pnpm docs:dev
 ```
-
-参考博客 https://gorpeln.cn/
-
-搜索功能待处理
-关于页面 做自我介绍
-
-vitpress源码版？？ 拉下来做二次开发
