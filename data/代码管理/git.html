@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>git | 导航</title>
     <meta name="description" content="个人博客">
-    <link rel="preload stylesheet" href="/assets/style.97733571.css" as="style">
+    <link rel="preload stylesheet" href="/learning-document-v2/assets/style.97733571.css" as="style">
     
-    <script type="module" src="/assets/app.09343afb.js"></script>
-    <link rel="preload" href="/assets/inter-roman-latin.2ed14f66.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/assets/chunks/framework.46c397e3.js">
-    <link rel="modulepreload" href="/assets/chunks/theme.78541442.js">
-    <link rel="modulepreload" href="/assets/data_代码管理_git.md.672f6a5a.lean.js">
+    <script type="module" src="/learning-document-v2/assets/app.09343afb.js"></script>
+    <link rel="preload" href="/learning-document-v2/assets/inter-roman-latin.2ed14f66.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/learning-document-v2/assets/chunks/framework.46c397e3.js">
+    <link rel="modulepreload" href="/learning-document-v2/assets/chunks/theme.78541442.js">
+    <link rel="modulepreload" href="/learning-document-v2/assets/data_代码管理_git.md.672f6a5a.lean.js">
     <link rel="icon" href=".vitepress/img/米饭.png">
     <script id="check-dark-light">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
   </head>
@@ -26,7 +26,7 @@
 <span class="line"><span style="color:#A6ACCD;">git push orgin master 本地master推送到远端  并创建远端master分支</span></span></code></pre></div><h3 id="部分代码合并到另一个分支" tabindex="-1">部分代码合并到另一个分支 <a class="header-anchor" href="#部分代码合并到另一个分支" aria-label="Permalink to &quot;部分代码合并到另一个分支&quot;">​</a></h3><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;"># 切换到master分支</span></span>
 <span class="line"><span style="color:#A6ACCD;"># 下面这个命令加上 develop分支的提交号</span></span>
 <span class="line"><span style="color:#A6ACCD;">git cherry-pick 20d5f7213e9c21dec7461c5f7326012bb134451f</span></span>
-<span class="line"><span style="color:#A6ACCD;"># push一下代码</span></span></code></pre></div><p><img src="/assets/image-20221108164141451.c451646f.png" alt="image-20221108164141451"></p><h3 id="撤回commit" tabindex="-1">撤回commit <a class="header-anchor" href="#撤回commit" aria-label="Permalink to &quot;撤回commit&quot;">​</a></h3><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;"># 保留修改的代码</span></span>
+<span class="line"><span style="color:#A6ACCD;"># push一下代码</span></span></code></pre></div><p><img src="/learning-document-v2/assets/image-20221108164141451.c451646f.png" alt="image-20221108164141451"></p><h3 id="撤回commit" tabindex="-1">撤回commit <a class="header-anchor" href="#撤回commit" aria-label="Permalink to &quot;撤回commit&quot;">​</a></h3><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;"># 保留修改的代码</span></span>
 <span class="line"><span style="color:#A6ACCD;">git reset --soft HEAD^</span></span>
 <span class="line"><span style="color:#A6ACCD;"># 原来修改的代码也没了</span></span>
 <span class="line"><span style="color:#A6ACCD;">git reset --hard HEAD^</span></span></code></pre></div><h3 id="撤回push" tabindex="-1">撤回push <a class="header-anchor" href="#撤回push" aria-label="Permalink to &quot;撤回push&quot;">​</a></h3><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;"># 查询提交日志</span></span>
